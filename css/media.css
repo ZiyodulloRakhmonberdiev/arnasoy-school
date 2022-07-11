@@ -1,0 +1,266 @@
+@media (max-width: 1024px) {
+  .about .content {
+    padding: 30px 35px;
+
+  }
+}
+
+@media (max-width: 950px) {
+  .header-bottom {
+    position: relative;
+  }
+
+  .header-bottom .container ul {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background-color: #2C3639;
+    transform: translateX(-100%);
+    transition: all 0.3s ease 0s;
+    min-height: 100vh;
+    width: 70%;
+    gap: 10px;
+  }
+
+  .header-bottom ul .logo {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .header-bottom ul .logo a {
+    color: #fff;
+  }
+
+  .nav-active {
+    transform: translateX(0) !important;
+  }
+
+  .header-bottom .container ul li {
+    border-bottom: 1px solid #5b5956;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+  }
+
+  .header-bottom .container ul li a {
+    color: #fff;
+    opacity: 0.5;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header-bottom .container ul li:hover a {
+    opacity: 1;
+  }
+
+  .header-bottom .nav-toggler {
+    height: 40px;
+    width: 45px;
+    border: 1px solid var(--bg-black-50);
+    cursor: pointer;
+    border-radius: 5px;
+    background: var(--bg-black-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-bottom .nav-toggler span {
+    width: 18px;
+    height: 2px;
+    background: var(--text-black-900);
+    display: inline-block;
+    position: relative;
+  }
+
+  .header-bottom .nav-toggler span::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 0;
+    width: 18px;
+    height: 2px;
+    background: var(--text-black-900);
+  }
+
+  .header-bottom .nav-toggler span::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 18px;
+    height: 2px;
+    background: var(--text-black-900);
+  }
+
+  .main-section {
+    height: 70vh;
+  }
+
+  .main-section .container {
+    padding: 20px;
+  }
+
+  .main-section .subtitle {
+    margin-bottom: 15px;
+  }
+
+  .main-section .title {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+
+  .info .container {
+    flex-direction: column;
+  }
+
+  .info {
+    padding: 60px 0;
+  }
+
+  .info .title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .info .content {
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  .opportunity .row {
+    flex-wrap: wrap;
+  }
+
+  .opportunity .column {
+    width: 50%;
+  }
+
+  .about .container {
+    flex-direction: column;
+  }
+
+  .about .img {
+    width: 100%;
+  }
+
+  .about img {
+    height: 500px;
+    width: 100%;
+  }
+
+  .about .content {
+    padding-top: 60px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 664px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .header-top ul li a i {
+    font-size: 16px;
+  }
+
+  .header-top .container .left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .header-top .container .left a {
+    font-size: 10px;
+  }
+
+  .header-bottom {
+    height: 80px;
+  }
+
+  .directions .row {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .footer {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .footer .container {
+    flex-direction: column-reverse;
+  }
+
+  .footer .social {
+    margin-bottom: 12px;
+  }
+
+  .footer .copyright {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .footer .social li a i {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .main-section {
+    height: 70vh;
+  }
+
+  .main-section .subtitle {
+    font-size: 20px;
+    line-height: 1.1;
+  }
+
+  .opportunity .column {
+    height: 200px;
+    width: 100%;
+  }
+
+  .info .title {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+
+  .info h3 {
+    font-size: 24px;
+  }
+
+  .info h4 {
+    font-size: 18px;
+  }
+
+  .about .title {
+    font-size: 22px;
+  }
+
+  .about .subtitle {
+    font-size: 20px;
+  }
+
+  .about .text {
+    font-size: 16px;
+  }
+
+  .about img {
+    height: 350px;
+    width: 100%;
+  }
+
+  .about .content {
+    padding: 60px 20px 20px 20px;
+  }
+
+  .about a {
+    padding: 12px 18px;
+  }
+}
