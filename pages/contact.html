@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./../css/global.css">
   <link rel="stylesheet" href="./../css/style.css">
   <link rel="stylesheet" href="./../css/media.css">
+  <link rel="stylesheet" href="./../css/animate.css">
 
   <title>Bog'lanish</title>
 </head>
@@ -20,11 +21,11 @@
     <header class="header">
       <div class="header-top">
         <div class="container">
-          <div class="left">
+          <div class="left wow animate__animated animate__fadeInDown animate__delay-02s">
             <a href="mailto:arnasoykhm@gmail.com"><i class="fa-solid fa-envelope"></i> arnasoykhm@gmail.com </a>
             <a href="tel:998936891007"><i class="fas fa-phone"></i> +998 93 689 1007</a>
           </div>
-          <div class="right">
+          <div class="right wow animate__animated animate__backInRight">
             <ul>
               <li><a href="https://instagram.com/arnasoy_kasbhunarmaktabi?igshid=YmMyMTA2M2Y="><i
                     class="fa-brands instagram fa-instagram"></i></a></li>
@@ -37,15 +38,19 @@
       </div>
       <div class="header-bottom">
         <div class="container">
-          <div class="logo"><a href="./../index.html">ARNYKHM</a></div>
+          <div class="logo"><a href="/">ARNYKHM</a></div>
           <div class="nav-toggler"><span></span></div>
           <ul class="nav">
-            <div class="logo"><a href="#">ARNYKHM</a></div>
-            <li><a href="./../index.html" class="nav-item">Bosh sahifa</a></li>
-            <li><a href="./about.html" class="nav-item">Maktab haqida</a></li>
-            <li><a href="./events.html" class="nav-item">Tadbirlar</a></li>
-            <li style="border-bottom: 4px solid var(--text-green)"><a href="#" class="nav-item"
-                style="color: var(--text-green); ">Bog'lanish</a></li>
+            <div class="logo"><a href="/">ARNYKHM</a></div>
+            <li class="wow animate__animated animate__fadeInDown"><a href="/" class="nav-item">Bosh sahifa</a></li>
+            <li class="wow animate__animated animate__fadeInDown animate__delay-01s"><a href="./../pages/about.html"
+                class="nav-item">Maktab
+                haqida</a></li>
+            <li class="wow animate__animated animate__fadeInDown animate__delay-02s"><a href="./../pages/events.html"
+                class="nav-item">Tadbirlar</a></li>
+            <li style="border-bottom: 4px solid var(--text-green)"
+              class="wow animate__animated animate__fadeInDown animate__delay-03s"><a href="#" class="nav-item"
+                style="color: var(--text-green)">Bog'lanish</a></li>
           </ul>
         </div>
       </div>
@@ -56,16 +61,22 @@
           <div class="contact-us">
             <div class="title">Bog'lanish</div>
             <div class="contact-wrapper">
-              <a href="tel:998936891007">
+              <a href="tel:998936891007" class="wow animate__animated animate__fadeIn">
                 <i class="fas fa-phone"></i>
                 <div class="contact-title">Ishonch telefoni</div>
                 <div class="contact-comment">Murojaat qilishingiz mumkin</div>
                 <div class="contact-link"> +998 93 689 1007</div>
               </a>
-              <a href="mailto:arnasoykhm@gmail.com">
+              <a href="mailto:arnasoykhm@gmail.com" class="wow animate__animated animate__fadeIn animate__delay-02s">
                 <i class="fas fa-solid fa-envelope"></i>
                 <div class="contact-title">Bizning pochta manzilimiz</div>
                 <div class="contact-comment">Talab va takliflar uchun</div>
+                <div class="contact-link"> arnasoykhm@gmail.com</div>
+              </a>
+              <a href="#" class="wow animate__animated animate__fadeIn animate__delay-04s">
+                <i class="fas fa-solid fa-location-dot"></i>
+                <div class="contact-title">Bizning manzil</div>
+                <div class="contact-comment">Jizzax viloyati Arnasoy tumani</div>
                 <div class="contact-link"> arnasoykhm@gmail.com</div>
               </a>
             </div>
@@ -73,27 +84,60 @@
           <div class="socials">
             <div class="title">Biz ijtimoiy tarmoqlarda</div>
             <div class="socials-wrapper">
-              <a href="https://instagram.com/arnasoy_kasbhunarmaktabi?igshid=YmMyMTA2M2Y=" class="social-item">
+              <a href="https://instagram.com/arnasoy_kasbhunarmaktabi?igshid=YmMyMTA2M2Y="
+                class="social-item wow animate__animated animate__fadeIn animate__delay-01s">
                 <i class="fa-brands fa-instagram"></i>
                 <div class="social-title">Bizning instagram</div>
                 <div class="social-comment">Bizni kuzatib boring</div>
                 <div class="social-link">
                   Instagramni ochish</div>
               </a>
-              <a href="https://www.youtube.com/channel/UC6jqkMFE90bwoSMGgE8jCTw/featured" class="social-item">
+              <a href="https://www.youtube.com/channel/UC6jqkMFE90bwoSMGgE8jCTw/featured"
+                class="social-item wow animate__animated animate__fadeIn animate__delay-02s">
                 <i class="fa-brands fa-youtube"></i>
                 <div class="social-title">Bizning YouTube</div>
                 <div class="social-comment">Albatta a'zo bo'ling</div>
                 <div class="social-link">
                   YouTubeni ochish</div>
               </a>
-              <a href="https://t.me/maktab_kasbhunar" class="social-item">
+              <a href="https://t.me/maktab_kasbhunar"
+                class="social-item wow animate__animated animate__fadeIn animate__delay-03s">
                 <i class="fa-brands fa-telegram"></i>
                 <div class="social-title">Bizning Telegram</div>
                 <div class="social-comment">Yangiliklarni kuzatib boring</div>
-                <div class="social-link"> Telegram ochish</div>
+                <div class="social-link"> Telegramni ochish</div>
               </a>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="form">
+        <div class="container">
+          <div class="order">
+            <div class="order-title">Ariza topshirish</div>
+            <div class="order-content">
+              Agar siz maktabimizda o'qishni istasangiz, o'qish uchun arizalarni online tarzda
+              topshirishingiz mumkin.
+              Buning uchun pastdagi 'Hoziroq ariza topshirish' tugmasini bosing va taqdim etilgan anketani
+              diqqat
+              bilan
+              to'ldiring
+              va bizga yuboring. Biz sizning arizangiz bilan tanishib chiqamiz va qayta aloqaga chiqamiz!
+            </div>
+            <a href="https://forms.gle/EDPTkrNy6iB99kmWA" class="order-link">Hoziroq ariza topshirish</a>
+            <div class="order-warning">
+              <h3>!DIQQAT</h3>
+              <h4>Anketadagi har bir qismni e'tibor bilan, aniq ma'lumotlarga asoslangan holda to'ldirishingizni iltimos
+                qilamiz! Bu
+                orqali sizning hujjatingiz e'tiborsiz qoldirilishining oldi olinadi. Hurmat bilan, maktab
+                ma'muriyati! </h4>
+            </div>
+          </div>
+          <div class="comments">
+            <div class="order-title">Izoh qoldirish</div>
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSee8lEnBFhASiqSTu3SZDXFhYHxr3NKJZtCxuxeD7E6mAkgTA/viewform?embedded=true"
+              width="640" height="979" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
           </div>
         </div>
       </section>
@@ -119,6 +163,10 @@
       </ul>
   </footer>
   <script src="./../js/main.js"></script>
+  <script src="./../js/wow.js"></script>
+  <script>
+    new WOW().init()
+  </script>
 </body>
 
 </html>

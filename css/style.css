@@ -768,14 +768,15 @@
 }
 
 .contact-us .contact-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  padding: 50px 30px;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .contact-us .title {
   color: #fff;
-  font-size: 50px;
+  font-size: 42px;
   padding-bottom: 80px;
   position: relative;
 }
@@ -806,6 +807,8 @@
   color: #fff;
   margin-bottom: 30px;
   font-weight: 600;
+  flex: 1 1 100%;
+  line-height: 1.2;
 }
 
 .contact-us .contact-comment {
@@ -829,19 +832,20 @@
 .socials .socials-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  padding: 50px 30px;
+  padding: 50px 0px;
   gap: 30px;
 }
 
 .socials .social-item {
   padding: 30px;
+  padding-top: 45px;
   background: var(--text-blue);
   border-radius: 15px;
 }
 
 .socials .title {
   color: var(--text-dark);
-  font-size: 50px;
+  font-size: 42px;
   padding-bottom: 80px;
   position: relative;
 }
@@ -884,4 +888,77 @@
   font-size: 18px;
   color: var(--text-green);
   margin-bottom: 30px;
+}
+
+.form .comments {
+  margin-top: 80px;
+}
+
+.teQAzf {
+  margin: 0;
+  margin-left: 0;
+}
+
+.form .comments iframe {
+  width: 700px;
+  height: 650px;
+}
+
+.form .container {
+  padding: 0 30px;
+}
+
+.order-title {
+  font-size: 52px;
+  color: var(--text-dark);
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.order-title::after {
+  content: '';
+  position: absolute;
+  height: 4px;
+  top: 35%;
+  left: 410px;
+  right: 0;
+  background-color: var(--text-green);
+}
+
+.order .order-title::after {
+  left: 470px;
+}
+
+.order .order-content {
+  font-size: 20px;
+  font-family: 'Poppins';
+  color: var(--text-dark);
+  line-height: 1.2;
+}
+
+.order .order-content span {
+  font-weight: 600;
+}
+
+.order .order-warning {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+  border-left: 5px solid red;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.order .order-link {
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--text-green);
+  margin-top: 20px;
+  margin-right: auto;
+  border-radius: 2px;
+  padding: 16px 32px;
+  letter-spacing: 2px;
 }
